@@ -124,7 +124,7 @@ export default function ContactPage() {
                       </label>
                       <Input
                         type="tel"
-                        placeholder="(555) 123-4567"
+                        placeholder="814-656-4993"
                         value={formData.phone}
                         onChange={(e) => handleChange("phone", e.target.value)}
                         className="w-full"
@@ -230,7 +230,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="font-semibold text-[#1A1A1A] mb-1">Phone</p>
-                        <p className="text-[#4A4A4A]">(555) 123-4567</p>
+                        <p className="text-[#4A4A4A]">814-656-4993</p>
                       </div>
                     </div>
                   </CardContent>

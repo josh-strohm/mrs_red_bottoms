@@ -138,7 +138,7 @@ export default function ServiceAreasPage() {
                     <Phone className="w-6 h-6 text-[#C41E3A] shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-[#1A1A1A]">Phone</p>
-                      <p className="text-[#4A4A4A]">(555) 123-4567</p>
+                      <p className="text-[#4A4A4A]">814-656-4993</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">

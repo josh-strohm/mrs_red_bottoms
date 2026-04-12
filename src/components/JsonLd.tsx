@@ -8,7 +8,7 @@ export function JsonLd() {
     description:
       "Professional residential and commercial cleaning services in Altoona, PA and surrounding areas.",
     url: "https://msredbottoms.com",
-    telephone: "(555) 123-4567",
+    telephone: "814-656-4993",
     email: "info@msredbottoms.com",
     priceRange: "$$",
     address: {

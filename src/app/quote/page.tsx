@@ -190,7 +190,7 @@ export default function QuotePage() {
                       </label>
                       <Input
                         type="tel"
-                        placeholder="(555) 123-4567"
+                        placeholder="814-656-4993"
                         value={formData.phone}
                         onChange={(e) => handleChange("phone", e.target.value)}
                         required
