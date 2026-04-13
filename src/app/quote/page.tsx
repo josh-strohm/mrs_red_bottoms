@@ -287,7 +287,8 @@ export default function QuotePage() {
 
                   <Button
                     type="submit"
-                    disabled={isLoading || !formData.serviceType}
+                    disabled={isLoading}
+                    variant="default"
                     className="w-full bg-[#C41E3A] hover:bg-[#A01830] text-white font-medium py-6 text-lg"
                   >
                     {isLoading ? (
