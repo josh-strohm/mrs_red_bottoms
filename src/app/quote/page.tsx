@@ -48,13 +48,46 @@ export default function QuotePage() {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    setIsSubmitted(true);
-    setIsLoading(false);
+    setError(null);
+
+    try {
+      const response = await fetch(
+        "https://n8n.srv945929.hstgr.cloud/webhook/df10145e-017f-4b2a-b533-30890bdf59a1",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            type: "quote",
+            name: formData.name,
+            email: formData.email,
+            phone: formData.phone,
+            address: formData.address,
+            serviceType: formData.serviceType,
+            squareFootage: formData.squareFootage,
+            preferredDate: formData.preferredDate,
+            additionalDetails: formData.additionalDetails,
+            submittedAt: new Date().toISOString(),
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to submit form");
+      }
+
+      setIsSubmitted(true);
+    } catch (err) {
+      setError("Something went wrong. Please try again or contact us directly.");
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleChange = (field: string, value: string) => {
@@ -272,6 +305,10 @@ export default function QuotePage() {
                     quote request. We respect your privacy and will never share your 
                     information.
                   </p>
+
+                  {error && (
+                    <p className="text-red-600 text-center mt-4">{error}</p>
+                  )}
                 </form>
               </div>
             </div>
