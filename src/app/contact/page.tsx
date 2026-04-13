@@ -47,6 +47,7 @@ export default function ContactPage() {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
+            type: "contact",
             name: formData.name,
             email: formData.email,
             phone: formData.phone,
@@ -278,7 +279,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="font-semibold text-[#1A1A1A] mb-1">Email</p>
-                        <p className="text-[#4A4A4A]">info@msredbottoms.com</p>
+                        <p className="text-[#4A4A4A]">redbottomscleaning@gmail.com</p>
                       </div>
                     </div>
                   </CardContent>

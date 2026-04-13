@@ -145,7 +145,7 @@ export default function ServiceAreasPage() {
                     <Mail className="w-6 h-6 text-[#C41E3A] shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-[#1A1A1A]">Email</p>
-                      <p className="text-[#4A4A4A]">info@msredbottoms.com</p>
+                      <p className="text-[#4A4A4A]">redbottomscleaning@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
