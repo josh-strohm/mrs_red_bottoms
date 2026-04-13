@@ -71,7 +71,7 @@ export default function QuotePage() {
               Get a Free Quote
             </h1>
             <p className="text-xl text-[#4A4A4A] leading-relaxed">
-              Ready to experience the Ms Red Bottoms difference? Tell us about your 
+              Ready to experience the Mrs Red Bottoms difference? Tell us about your 
               cleaning needs and we'll get back to you within 24 hours with a 
               customized quote.
             </p>

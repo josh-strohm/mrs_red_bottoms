@@ -7,7 +7,7 @@ import { MapPin, Phone, Mail, Clock, ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Service Areas",
   description:
-    "Ms Red Bottoms Cleaning Solutions LLC serves Altoona, PA and surrounding Blair County communities including Hollidaysburg, Duncansville, Tyrone, and more.",
+    "Mrs Red Bottoms Cleaning Solutions LLC serves Altoona, PA and surrounding Blair County communities including Hollidaysburg, Duncansville, Tyrone, and more.",
 };
 
 const serviceAreas = [

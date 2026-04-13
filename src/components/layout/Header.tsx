@@ -28,7 +28,7 @@ export function Header() {
             </div>
             <div className="hidden sm:block">
               <span className="font-serif text-xl font-semibold text-[#1A1A1A]">
-                Ms Red Bottoms
+                Mrs. Red Bottoms
               </span>
               <span className="hidden lg:inline text-xs text-[#4A4A4A] ml-2">
                 Cleaning Solutions LLC

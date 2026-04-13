@@ -64,7 +64,7 @@ const trustSignals = [
 const testimonials = [
   {
     quote:
-      "Ms Red Bottoms transformed our home! The attention to detail was incredible. I've never seen our kitchen shine like this.",
+      "Mrs Red Bottoms transformed our home! The attention to detail was incredible. I've never seen our kitchen shine like this.",
     name: "Sarah M.",
     location: "Altoona, PA",
   },
@@ -140,7 +140,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-heading text-4xl md:text-5xl font-semibold text-[#1A1A1A] mb-6">
-              Why Choose Ms Red Bottoms?
+              Why Choose Mrs Red Bottoms?
             </h2>
             <p className="text-lg text-[#4A4A4A]">
               We believe cleaning isn't just about making spaces look good — it's about 

@@ -4,7 +4,7 @@ export function JsonLd() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Ms Red Bottoms Cleaning Solutions LLC",
+    name: "Mrs. Red Bottoms Cleaning Solutions LLC",
     description:
       "Professional residential and commercial cleaning services in Altoona, PA and surrounding areas.",
     url: "https://msredbottoms.com",

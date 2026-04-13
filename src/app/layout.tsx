@@ -19,8 +19,8 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ms Red Bottoms Cleaning Solutions LLC | Premium Cleaning Services in Altoona, PA",
-    template: "%s | Ms Red Bottoms Cleaning Solutions LLC",
+    default: "Mrs Red Bottoms Cleaning Solutions LLC | Premium Cleaning Services in Altoona, PA",
+    template: "%s | Mrs Red Bottoms Cleaning Solutions LLC",
   },
   description:
     "Professional residential and commercial cleaning services in Altoona, PA. Move-in/move-out clean-outs, deep cleaning, and specialty services. Locally owned and insured.",
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
     "estate cleanout",
     "Blair County",
   ],
-  authors: [{ name: "Ms Red Bottoms Cleaning Solutions LLC" }],
-  creator: "Ms Red Bottoms Cleaning Solutions LLC",
-  publisher: "Ms Red Bottoms Cleaning Solutions LLC",
+  authors: [{ name: "Mrs Red Bottoms Cleaning Solutions LLC" }],
+  creator: "Mrs Red Bottoms Cleaning Solutions LLC",
+  publisher: "Mrs Red Bottoms Cleaning Solutions LLC",
   formatDetection: {
     email: false,
     address: false,
@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://msredbottoms.com",
-    siteName: "Ms Red Bottoms Cleaning Solutions LLC",
-    title: "Ms Red Bottoms Cleaning Solutions LLC | Premium Cleaning Services in Altoona, PA",
+    siteName: "Mrs Red Bottoms Cleaning Solutions LLC",
+    title: "Mrs Red Bottoms Cleaning Solutions LLC | Premium Cleaning Services in Altoona, PA",
     description:
       "Professional residential and commercial cleaning services in Altoona, PA. Move-in/move-out clean-outs, deep cleaning, and specialty services.",
     images: [
@@ -56,13 +56,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Ms Red Bottoms Cleaning Solutions LLC - Premium Cleaning Services",
+        alt: "Mrs Red Bottoms Cleaning Solutions LLC - Premium Cleaning Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ms Red Bottoms Cleaning Solutions LLC",
+    title: "Mrs Red Bottoms Cleaning Solutions LLC",
     description:
       "Premium cleaning services for homes and businesses in Altoona, PA",
     images: ["/og-image.jpg"],

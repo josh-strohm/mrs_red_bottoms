@@ -7,7 +7,7 @@ import { Shield, Target, Heart, Star, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Ms Red Bottoms Cleaning Solutions LLC, founded by Michelle Hartman in Altoona, PA. Discover our mission to provide premium cleaning services to the local community.",
+    "Learn about Mrs Red Bottoms Cleaning Solutions LLC, founded by Michelle Hartman in Altoona, PA. Discover our mission to provide premium cleaning services to the local community.",
 };
 
 const values = [
@@ -58,7 +58,7 @@ export default function AboutPage() {
                 Our Story
               </h1>
               <p className="text-xl text-[#4A4A4A] leading-relaxed mb-8">
-                Ms Red Bottoms Cleaning Solutions LLC was born from a simple belief: 
+                Mrs Red Bottoms Cleaning Solutions LLC was born from a simple belief: 
                 everyone deserves to come home or walk into a workplace that feels fresh, 
                 clean, and cared for.
               </p>

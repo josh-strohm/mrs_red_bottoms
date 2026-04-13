@@ -95,7 +95,7 @@ export default function ServicesPage() {
               From routine maintenance to complete property transformations, we offer 
               comprehensive cleaning solutions tailored to your needs. Every service is 
               delivered with the attention to detail and professionalism that defines 
-              Ms Red Bottoms.
+              Mrs Red Bottoms.
             </p>
           </div>
         </div>
@@ -223,7 +223,7 @@ export default function ServicesPage() {
           </h2>
           <p className="text-xl text-gray-300 mb-10 leading-relaxed">
             Get in touch today for a free quote. We'd love to help you experience 
-            the Ms Red Bottoms difference.
+            the Mrs Red Bottoms difference.
           </p>
           <Link href="/quote">
             <Button className="bg-[#C41E3A] hover:bg-[#A01830] text-white font-medium px-8 py-6 text-lg">

@@ -22,7 +22,7 @@ export function Footer() {
               </div>
               <div>
                 <span className="font-serif text-xl font-semibold block">
-                  Ms Red Bottoms
+                  Mrs. Red Bottoms
                 </span>
                 <span className="text-xs text-gray-400">
                   Cleaning Solutions LLC
@@ -105,7 +105,7 @@ export function Footer() {
 
         <div className="border-t border-[#2A2A2A] pt-8 text-center">
           <p className="text-gray-500 text-sm">
-            © 2025 Ms Red Bottoms Cleaning Solutions LLC. All rights reserved.
+            © 2025 Mrs. Red Bottoms Cleaning Solutions LLC. All rights reserved.
           </p>
         </div>
       </div>

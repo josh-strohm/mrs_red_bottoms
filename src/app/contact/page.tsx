@@ -280,7 +280,7 @@ export default function ContactPage() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-300 mb-10 leading-relaxed">
-            Get your free quote today and experience the Ms Red Bottoms difference.
+            Get your free quote today and experience the Mrs Red Bottoms difference.
           </p>
           <Link href="/quote">
             <Button className="bg-[#C41E3A] hover:bg-[#A01830] text-white font-medium px-8 py-6 text-lg">
