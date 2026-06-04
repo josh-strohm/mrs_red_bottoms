@@ -37,7 +37,7 @@ const values = [
     icon: Award,
     title: "Attention to Detail",
     description:
-      "We don't cut corners. Every detail matters — from baseboards to ceiling fans.",
+      "We don't cut corners. Every detail matters, from baseboards to ceiling fans.",
   },
 ];
 
@@ -127,7 +127,7 @@ export default function AboutPage() {
                 With a passion for creating clean, comfortable spaces, Michelle
                 founded Ms Red Bottoms Cleaning Solutions LLC in June 2025. Her
                 vision was simple: bring premium, detail-oriented cleaning services
-                to Altoona and surrounding areas — the kind of service she'd
+                to Altoona and surrounding areas, the kind of service she'd
                 want in her own home.
               </p>
               <p className="text-charcoal-light mb-8 leading-relaxed">
@@ -233,7 +233,7 @@ export default function AboutPage() {
               Stands Out
             </h2>
             <p className="text-xl text-charcoal-light max-w-2xl mx-auto">
-              We don't just clean — we care. Here's what sets us apart from the rest.
+              We don't just clean. We care. Here's what sets us apart from the rest.
             </p>
           </motion.div>
 
@@ -252,7 +252,7 @@ export default function AboutPage() {
               {
                 title: "Quality Guaranteed",
                 description:
-                  "Your satisfaction is our promise. If you're not happy, we'll make it right — no questions asked.",
+                  "Your satisfaction is our promise. If you're not happy, we'll make it right. No questions asked.",
               },
             ].map((item, index) => (
               <motion.div

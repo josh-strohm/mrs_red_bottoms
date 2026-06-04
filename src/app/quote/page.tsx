@@ -148,7 +148,7 @@ export default function QuotePage() {
               className="text-xl text-charcoal-light leading-relaxed"
             >
               Fill out the form below and we'll get back to you within 24 hours with a
-              customized quote for your cleaning needs. No obligation, no pressure — just honest,
+              customized quote for your cleaning needs. No obligation, no pressure. Just honest,
               transparent pricing.
             </motion.p>
           </motion.div>
@@ -341,7 +341,7 @@ export default function QuotePage() {
                       <Textarea
                         id="details"
                         name="details"
-                        placeholder="Tell us more about your cleaning needs — number of rooms, bathrooms, any special requirements..."
+                        placeholder="Tell us more about your cleaning needs: number of rooms, bathrooms, any special requirements..."
                         value={formData.details}
                         onChange={handleChange}
                         rows={4}

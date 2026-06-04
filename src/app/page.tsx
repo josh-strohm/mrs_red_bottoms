@@ -198,7 +198,7 @@ export default function HomePage() {
               The Ms Red Bottoms <span className="text-[var(--red-accent)]">Difference</span>
             </h2>
             <p className="text-xl text-charcoal-light max-w-2xl mx-auto">
-              We don't just clean — we transform your space into something you can be
+              We don't just clean. We transform your space into something you can be
               truly proud of.
             </p>
           </motion.div>

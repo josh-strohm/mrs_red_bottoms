@@ -55,7 +55,7 @@ const services = [
     title: "Clean-Outs",
     subtitle: "Estate, Foreclosure & Hoarding",
     description:
-      "Comprehensive cleaning and decluttering services for challenging situations. We're here to help with transitions, clearances, and fresh starts — no job is too big or too complex.",
+      "Comprehensive cleaning and decluttering services for challenging situations. We're here to help with transitions, clearances, and fresh starts. No job is too big or too complex.",
     features: [
       "Estate clean-outs",
       "Foreclosure clean-outs",

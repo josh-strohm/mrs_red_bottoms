@@ -307,10 +307,10 @@ export default function ContactPage() {
                       <div>
                         <p className="font-semibold mb-1">Email</p>
                         <a
-                          href="mailto:info@msredbottomscleaning.com"
+                          href="mailto:mrsredbottomscleaning@gmail.com"
                           className="text-gray-300 hover:text-white transition-colors"
                         >
-                          info@msredbottomscleaning.com
+                          mrsredbottomscleaning@gmail.com
                         </a>
                       </div>
                     </div>

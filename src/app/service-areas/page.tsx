@@ -80,7 +80,7 @@ export default function ServiceAreasPage() {
             >
               Based in Altoona, we proudly serve homes and businesses throughout
               Blair County and surrounding areas. Contact us to discuss your
-              project — we're happy to travel beyond our primary service area
+              project. We're happy to travel beyond our primary service area
               for the right job.
             </motion.p>
           </motion.div>
@@ -264,10 +264,10 @@ export default function ServiceAreasPage() {
                     <div>
                       <p className="font-semibold text-charcoal">Email</p>
                       <a
-                        href="mailto:info@msredbottomscleaning.com"
+                        href="mailto:mrsredbottomscleaning@gmail.com"
                         className="text-charcoal-light hover:text-[var(--red-accent)]"
                       >
-                        info@msredbottomscleaning.com
+                        mrsredbottomscleaning@gmail.com
                       </a>
                     </div>
                   </div>

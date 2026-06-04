@@ -95,7 +95,7 @@ export default function RootLayout({
                 "Premium residential and commercial cleaning services in Altoona, PA",
               url: "https://www.msredbottomscleaning.com",
               telephone: "+1-814-656-4993",
-              email: "info@msredbottomscleaning.com",
+              email: "mrsredbottomscleaning@gmail.com",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "625 Sharrar Dr",
