@@ -71,11 +71,30 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
-    
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    
-    setIsSubmitted(true);
-    setIsLoading(false);
+
+    try {
+      const response = await fetch(
+        "https://n8n.strohmpartners.com/webhook/df10145e-017f-4b2a-b533-30890bdf59a1",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            form: "contact",
+            ...formData,
+          }),
+        }
+      );
+
+      if (!response.ok) throw new Error("Webhook request failed");
+
+      setIsSubmitted(true);
+    } catch {
+      alert(
+        "There was a problem sending your message. Please try again or call us directly."
+      );
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleChange = (
