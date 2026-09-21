@@ -78,7 +78,7 @@ const testimonials = [
     name: "Sarah M.",
     location: "Altoona, PA",
     rating: 5,
-    text: "Ms Red Bottoms has transformed my home. The attention to detail is incredible. I've never seen my kitchen sparkle like this!",
+    text: "Mrs Red Bottoms has transformed my home. The attention to detail is incredible. I've never seen my kitchen sparkle like this!",
   },
   {
     name: "James L.",
@@ -195,7 +195,7 @@ export default function HomePage() {
             className="text-center mb-16"
           >
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-charcoal mb-4">
-              The Ms Red Bottoms <span className="text-[var(--red-accent)]">Difference</span>
+              The Mrs Red Bottoms <span className="text-[var(--red-accent)]">Difference</span>
             </h2>
             <p className="text-xl text-charcoal-light max-w-2xl mx-auto">
               We don't just clean. We transform your space into something you can be
@@ -381,7 +381,7 @@ export default function HomePage() {
           >
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-white mb-6">
               Ready to Experience the{" "}
-              <span className="text-[var(--red-accent)]">Ms Red Bottoms</span>{" "}
+              <span className="text-[var(--red-accent)]">Mrs Red Bottoms</span>{" "}
               Difference?
             </h2>
             <p className="text-xl text-gray-300 mb-8">

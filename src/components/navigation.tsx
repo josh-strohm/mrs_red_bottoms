@@ -34,7 +34,7 @@ export function Navigation() {
               <Sparkles className="w-5 h-5 text-white" />
             </div>
             <span className="font-heading text-xl font-semibold text-charcoal">
-              Ms Red Bottoms
+              Mrs Red Bottoms
             </span>
           </Link>
 
@@ -91,7 +91,7 @@ export function Navigation() {
                       <Sparkles className="w-5 h-5 text-white" />
                     </div>
                     <span className="font-heading text-xl font-semibold">
-                      Ms Red Bottoms
+                      Mrs Red Bottoms
                     </span>
                   </Link>
                   <Button variant="ghost" size="icon" aria-label="Close" onClick={() => setOpen(false)}>

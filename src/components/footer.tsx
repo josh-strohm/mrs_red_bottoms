@@ -23,7 +23,7 @@ export function Footer() {
                 <Sparkles className="w-5 h-5 text-white" />
               </div>
               <span className="font-heading text-xl font-semibold">
-                Ms Red Bottoms Cleaning Solutions LLC
+                Mrs Red Bottoms Cleaning Solutions LLC
               </span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
@@ -87,7 +87,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-8">
           <p className="text-center text-gray-400 text-sm">
-            &copy; {currentYear} Ms Red Bottoms Cleaning Solutions LLC. All rights
+            &copy; {currentYear} Mrs Red Bottoms Cleaning Solutions LLC. All rights
             reserved.
           </p>
         </div>

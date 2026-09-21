@@ -90,14 +90,14 @@ export default function AboutPage() {
               className="font-heading text-5xl md:text-6xl font-bold text-charcoal leading-tight mb-6"
             >
               Meet the Face Behind{" "}
-              <span className="text-[var(--red-accent)]">Ms Red Bottoms</span>
+              <span className="text-[var(--red-accent)]">Mrs Red Bottoms</span>
             </motion.h1>
 
             <motion.p
               variants={itemVariants}
               className="text-xl text-charcoal-light mb-8 leading-relaxed"
             >
-              Founded by Michelle Hartman in 2025, Ms Red Bottoms Cleaning Solutions
+              Founded by Michelle Hartman in 2025, Mrs Red Bottoms Cleaning Solutions
               LLC brings a fresh approach to professional cleaning in Altoona, PA.
               As a sole proprietor, Michelle personally oversees every job to ensure
               the exceptional quality that has become our signature.
@@ -125,7 +125,7 @@ export default function AboutPage() {
               </p>
               <p className="text-charcoal-light mb-6 leading-relaxed">
                 With a passion for creating clean, comfortable spaces, Michelle
-                founded Ms Red Bottoms Cleaning Solutions LLC in June 2025. Her
+                founded Mrs Red Bottoms Cleaning Solutions LLC in June 2025. Her
                 vision was simple: bring premium, detail-oriented cleaning services
                 to Altoona and surrounding areas, the kind of service she'd
                 want in her own home.
@@ -229,7 +229,7 @@ export default function AboutPage() {
           >
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-charcoal mb-4">
               Why{" "}
-              <span className="text-[var(--red-accent)]">Ms Red Bottoms</span>{" "}
+              <span className="text-[var(--red-accent)]">Mrs Red Bottoms</span>{" "}
               Stands Out
             </h2>
             <p className="text-xl text-charcoal-light max-w-2xl mx-auto">

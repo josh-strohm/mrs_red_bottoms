@@ -233,7 +233,7 @@ export default function ServiceAreasPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="p-8 md:p-12 flex flex-col justify-center">
                 <h3 className="font-heading text-2xl font-bold text-charcoal mb-6">
-                  Ms Red Bottoms Cleaning Solutions LLC
+                  Mrs Red Bottoms Cleaning Solutions LLC
                 </h3>
                 <div className="space-y-4 mb-8">
                   <div className="flex items-start gap-3">

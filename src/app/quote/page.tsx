@@ -192,7 +192,7 @@ export default function QuotePage() {
                     Quote Request Received!
                   </h2>
                   <p className="text-xl text-charcoal-light mb-8 max-w-md mx-auto">
-                    Thank you for your interest in Ms Red Bottoms Cleaning Solutions. We'll
+                    Thank you for your interest in Mrs Red Bottoms Cleaning Solutions. We'll
                     review your information and get back to you within 24 hours with your
                     customized quote.
                   </p>
