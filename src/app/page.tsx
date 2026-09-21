@@ -401,7 +401,7 @@ export default function HomePage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="text-white border-white/30 hover:bg-white/10 text-lg px-8 py-6"
+                  className="text-charcoal bg-white border-white/30 hover:bg-gray-100 text-lg px-8 py-6"
                 >
                   Contact Us
                 </Button>

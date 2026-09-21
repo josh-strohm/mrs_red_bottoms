@@ -476,7 +476,7 @@ export default function QuotePage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="text-white border-white/30 hover:bg-white/10 text-lg px-8 py-6"
+                  className="text-charcoal bg-white border-white/30 hover:bg-gray-100 text-lg px-8 py-6"
                 >
                   Call (814) 656-4993
                 </Button>
